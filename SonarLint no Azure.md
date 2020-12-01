@@ -3,7 +3,7 @@
 
 
 
-Através do SonarLint, que é uma extensão IDE que permite corrigir problemas de codificação, foi possível encontrar bugs e vulnerabilidades de segurança no código do Azure, que é um serviço que permite a empresas e desenvolvedores adquirirem as capacidades de processamento e armazenamento dos datacenters da Microsoft.     
+Através do SonarLint, que é uma extensão IDE que permite corrigir problemas de codificação, foi possível encontrar bugs e vulnerabilidades de segurança no código do Azure, que é um serviço que permite a empresas e desenvolvedores adquirirem as capacidades de processamento e armazenamento dos datacenters da Microsoft.       
 Cada problema indicado pelo SonarLint possui uma das cinco severidades: _BLOCKER_, _CRITICAL_, _MAJOR_, _MINOR_, _INFO_.     
 * O BLOCKER detecta bug com alta probabilidade de afetar o comportamento do aplicativo em produção, como  problemas de vazamento de memória, conexão JDBC não fechada.   
 * Já o CRITICAL detecta bug com baixa probabilidade de afetar o comportamento do aplicativo em produção ou um problema que representa uma falha de segurança, por exemplo, bloco catch vazio, injeção de SQL.   
