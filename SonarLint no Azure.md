@@ -12,7 +12,7 @@ Cada problema indicado pelo SonarLint possui uma das cinco severidades: _BLOCKER
 
 Para a disciplina em questão vamos focar apenas nas três severidades descritas anteriormente.   
 
-Analisando o package "com.azure.perf.test.core" do projeto, que possui 7 classes na linguagem java foi possível encontrar 30 problemas do tipo _MAJOR_, elas se deram devido a blocos catches e métodos vazios, falta do uso de construtores, uso de exceções genéricas como _RuntimeException_, que evita que os métodos tratem exceções verdadeiras geradas pelo sistema de maneira diferente dos erros gerados pelo aplicativo, se deram também por violação do princípio do encapsulamento e, por fim, variáveis que estão sendo declaradas em escopo externo. 
+Analisando o package "com.azure.perf.test.core" do projeto, que possui 7 classes na linguagem java foi possível encontrar 30 problemas do tipo _MAJOR_, eles se deram devido a blocos catches e métodos vazios, falta do uso de construtores, uso de exceções genéricas como _RuntimeException_, que evita que os métodos tratem exceções verdadeiras geradas pelo sistema de maneira diferente dos erros gerados pelo aplicativo, se deram também por violação do princípio do encapsulamento e, por fim, variáveis que estão sendo declaradas em escopo externo. 
 
 
 
