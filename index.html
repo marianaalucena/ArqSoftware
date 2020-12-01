@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
+		<title>Usando o SonarLint no Azure</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
 		<div class="container">
     		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
+        		<h1>Usando o SonarLint no Azure</h1>
+				<p>Através do SonarLint, que é uma extensão IDE que permite corrigir problemas de codificação, foi possível encontrar bugs e vulnerabilidades de segurança no código do Azure, que é um serviço que permite a empresas e desenvolvedores adquirirem as capacidades de processamento e armazenamento dos datacenters da Microsoft.
+
+Cada problema indicado pelo SonarLint possui uma das cinco severidades: BLOCKER, CRITICAL, MAJOR, MINOR, INFO.
+
+BLOCKER: detecta bug com alta probabilidade de afetar o comportamento do aplicativo em produção, como problemas de vazamento de memória, conexão JDBC não fechada.
+CRITICAL: detecta bug com baixa probabilidade de afetar o comportamento do aplicativo em produção ou um problema que representa uma falha de segurança, por exemplo, bloco catch vazio, injeção de SQL.
+MAJOR: indica uma falha de qualidade que pode impactar fortemente a produtividade do desenvolvedor, como pedaço descoberto de código, blocos duplicados, parâmetros não utilizados.
+Para a disciplina em questão vamos focar apenas nas três severidades descritas anteriormente.
+
+Analisando o package "com.azure.perf.test.core" do projeto, que possui 7 classes na linguagem java foi possível encontrar 30 problemas do tipo MAJOR, eles se deram devido a blocos catches e métodos vazios, falta do uso de construtores, uso de exceções genéricas como RuntimeException, que evita que os métodos tratem exceções verdadeiras geradas pelo sistema de maneira diferente dos erros gerados pelo aplicativo, se deram também por violação do princípio do encapsulamento e, por fim, variáveis que estão sendo declaradas em escopo externo.</a></p>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
 		<footer>
