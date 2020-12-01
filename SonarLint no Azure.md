@@ -18,20 +18,14 @@ tags = []
 categories = []
 +++
 
-***
-
-Este é um documento guia para os alunos de Arquitetura de Software. A ideia é apresentar o modelo de documentação arquitetural que espero que seja produzido por eles. Esse guia foi baseado em um projeto chamado Parlametria, cujos detalhes arquiteturais estão descritos [aqui](https://docs.google.com/document/d/1OGPN7crENY5u9AiR_AE7Cb9rT92T-U-YppZL0m4TT2s/edit?usp=sharing).
-
-O documento que você, aluno, deve produzir, deve seguir às diretrizes abaixo. Naturalmente, você pode adicionar, remover e alterar o formato, mas minha sugestão é que você mantenha o padrão que estou apresentando, inclusive, a mesma ordem e nomes de seções. Isso facilitará não só a padronização da documentação produzida por vocês.
 
 ***
 
 # Autores
 
-Este documento foi produzido por João Arthur Brunet.
+Este documento foi produzido por Mariana Araújo Lucena.
 
-- Matrícula: 857394857
-- Contato: joao.arthur@computacao.ufcg.edu.br
-- Projeto documentado: https://github.com/analytics-ufcg/parlametria-site
+- Matrícula: 115211305
+- Contato: mariana.lucena@ccc.ufcg.edu.br
 
-# Descrição Arquitetural -- Serviço de análise do twitter
+
