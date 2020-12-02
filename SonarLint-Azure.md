@@ -16,12 +16,8 @@ Analisando o package "com.azure.perf.test.core" do projeto, que possui 7 classes
 
 As imagens abaixo são de alguns dos defeitos identificados pela extensão na IDE do Eclipse.
 
-<img class="center" style="width:30;height:30" src="https://github.com/marianaalucena/ArqSoftware/blob/main/imagens/runtime.png?raw=true" />
-<img class="center" src="https://github.com/marianaalucena/ArqSoftware/blob/main/imagens/construtor.png?raw=true" style="width:60%" />  
-
-
-
-
+<img class="center" width="300px" height="300px" src="https://github.com/marianaalucena/ArqSoftware/blob/main/imagens/runtime.png?raw=true" />
+<img class="center" src="https://github.com/marianaalucena/ArqSoftware/blob/main/imagens/construtor.png?raw=true" />  
 
 
 ***
