@@ -14,8 +14,10 @@ Para a disciplina em questão vamos focar apenas nas três severidades descritas
 
 Analisando o package "com.azure.perf.test.core" do projeto, que possui 7 classes na linguagem java foi possível encontrar 30 problemas do tipo _MAJOR_, eles se deram devido a blocos catches e métodos vazios, falta do uso de construtores, uso de exceções genéricas como _RuntimeException_, que evita que os métodos tratem exceções verdadeiras geradas pelo sistema de maneira diferente dos erros gerados pelo aplicativo, se deram também por violação do princípio do encapsulamento e, por fim, variáveis que estão sendo declaradas em escopo externo. 
 
+As imagens abaixo são de alguns dos defeitos identificados pela extensão na IDE do Eclipse.
 
-<img class="center" src="https://github.com/marianaalucena/ArqSoftware/blob/main/imagens/runtime.png?raw=true" alt="RuntimeException" />  
+<img class="center" src="https://github.com/marianaalucena/ArqSoftware/blob/main/imagens/runtime.png?raw=true" alt="RuntimeException" />
+<img class="center" src="https://github.com/marianaalucena/ArqSoftware/blob/main/imagens/construtor.png?raw=true" alt="Construtor" />  
 
 
 
