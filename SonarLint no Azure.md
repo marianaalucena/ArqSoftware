@@ -18,6 +18,8 @@ Analisando o package "com.azure.perf.test.core" do projeto, que possui 7 classes
 ![Construtor] (imagens/construtor.png)  
 
 ![LEGENDA] (https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)
+<img src="http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif" alt="Banana" />
+
 
 
 ***
