@@ -16,6 +16,7 @@ Analisando o package "com.azure.perf.test.core" do projeto, que possui 7 classes
 
 ![RuntimeException] (imagens/runtime.png)
 ![Construtor] (imagens/construtor.png)
+[LEGENDA] (https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)
 
 ***
 
