@@ -18,7 +18,7 @@ Analisando o package "com.azure.perf.test.core" do projeto, que possui 7 classes
 <img src="https://github.com/marianaalucena/ArqSoftware/blob/main/imagens/runtime.png?raw=true" alt="RuntimeException" />  
 
 
-<img class="center" style="width:60% src="https://github.com/marianaalucena/ArqSoftware/blob/main/imagens/construtor.png?raw=true" alt="Construtor" />
+<img class="center" src="https://github.com/marianaalucena/ArqSoftware/blob/main/imagens/construtor.png?raw=true" alt="Construtor" />
 
 
 
